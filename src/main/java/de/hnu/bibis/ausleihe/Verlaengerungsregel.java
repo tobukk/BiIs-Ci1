@@ -15,7 +15,7 @@ import java.time.LocalDate;
 public class Verlaengerungsregel {
 
     public static final int MAX_VERLAENGERUNGEN = 3;
-    public static final int LEIHFRIST_TAGE = 28;
+    public static final int LEIHFRIST_TAGE = 21;
 
     /**
      * Prüft, ob eine Ausleihe verlängert werden darf.

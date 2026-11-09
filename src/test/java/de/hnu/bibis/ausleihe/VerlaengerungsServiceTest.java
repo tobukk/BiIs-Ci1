@@ -89,7 +89,7 @@ class VerlaengerungsServiceTest {
 
         // Assert
         // Lösung – zwingend: das Ergebnis prüfen
-        assertEquals(LocalDate.of(2026, 11, 30), neu);
+        assertEquals(LocalDate.of(2026, 11, 23), neu);
         assertEquals(1, ausleihe.getAnzahlVerlaengerungen());
         // Lösung – ergänzend: den Aufruf prüfen
         verify(vormerkungen).existiertVormerkung("T-4711");
